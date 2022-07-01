@@ -1,7 +1,63 @@
 body{
-    background:grey;
+    background:grey; 
     width:850px;
 }
+
+body{
+    font-size: 0;
+}
+.head::after{
+    clear:both;
+    display:table;
+    content:'';
+}
+.head_audi {
+    font-size: 3rem;
+    margin-left:50%;
+}
+.logo-wrap {
+    width:200px;
+    height:200px;
+    float:left;
+}
+.nav {
+    float:left;
+    margin-left:200px;
+}
+.nav__item{
+    font-size:1rem;
+    display:inline-block;
+    position: relative;
+   
+}
+.nav___link {
+  display:block;
+  padding:10px 12px;
+  text-decoration: none;
+  color:aqua;
+  background:lavender;
+  border-left: 2px solid grey;
+  font-size: 32px; 
+}
+
+.nav__drop__down{
+    position:absolute;
+    top:50px;
+    left:0px;
+    display:none;
+}
+.nav__drop__down a{
+    display: block;
+    text-decoration:none;
+    padding:10px;
+    background:grey;
+    border-bottom:2px solid black;
+}
+.nav .nav__item:hover .nav__drop__down{
+    display:block;
+}
+
+
 .clearfix::after{
     display:table;
     content:'';
