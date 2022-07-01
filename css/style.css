@@ -1,0 +1,39 @@
+body{
+    background:grey;
+    width:850px;
+}
+.clearfix::after{
+    display:table;
+    content:'';
+    clear:both;
+    height:0;
+}
+.wrapper {
+  width:700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.card {
+    float:left;
+    width:200px;
+    background:#E0E0E0;
+    border:1px solid;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.head img {
+   width:130px;
+   height:130px;
+   margin-left:35px;
+}
+.nameOfCar{
+    text-align: center;
+    font-size: 1.125rem;
+    margin-top:10px;
+}
+.info {
+    margin-top:10px;
+}
+.phone {
+    text-align: center;
+}
